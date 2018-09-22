@@ -1,1 +1,96 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Which member of LC should you date?</title>
+	<link href = "style.css" rel = "stylesheet">
+	<link href = "https://fonts.googleapis.com/css?family=Lato" rel = "stylesheet">
+	<script src= "main.js"></script>
+</head>
+
+<body>
+	<h1>Which member of LC should you date?</h1>
+
+	<h3>Here at LC, we celebrate diversity!</h3>
+	<p>Hopefully you'll be content with your results (no guarentees, though).</p>
+
+	<form id= "quiz" name = "quiz">
+		<p>What is your name?</p>
+		<input id = "textbook" type = "text" name = "question1">
+
+		<p>Who did you vote for in 2016?</p>
+		<input type="radio" id = "mc" name = "question2" value="Stein">Stein<br>
+		<input type="radio" id = "mc" name = "question2" value="Trump_ironic">Trump (ironically)<br>
+		<input type="radio" id = "mc" name = "question2" value="Trump_unironic">Trump (unironically)<br>
+		<input type="radio" id = "mc" name = "question2" value="No one">No one. Anyone who votes is gay<br>
+
+		<p>You have to listen to one artist. Who is it?</p>
+		<input type="radio" id = "mc" name = "question3" value="Mac Demarco">Mac Demarco<br>
+		<input type="radio" id = "mc" name = "question3" value="The Beatles">The Beatles<br>
+		<input type="radio" id = "mc" name = "question3" value="Pixies">Pixies<br>
+		<input type="radio" id = "mc" name = "question3" value="Pink Floyd">Pink Floyd<br>
+
+
+		<p>Is it ethical to fuck a dead body?</p>
+		<input type="radio" id = "mc" name = "question4" value="Yes">Yes. They are dead. Who cares?<br>
+		<input type="radio" id = "mc" name = "question4" value="No">No. You don't have consent. <br>
+		<input type="radio" id = "mc" name = "question4" value="Sometimes">It is situational! <br>
+		<input type="radio" id = "mc" name = "question4" value="Silly hat">Only if it is wearing a silly hat. <br>
+
+
+		<p>Can you properly articulate your ideology?</p>
+		<input type="radio" id = "mc" name = "question5" value="Yes">Yes<br>
+		<input type="radio" id = "mc" name = "question5" value="No">No<br>
+		<input type="radio" id = "mc" name = "question5" value="Barely">Barely<br>
+
+
+		<p>Your dream vacation is in...</p>
+		<input type="radio" id = "mc" name = "question6" value="China">China<br>
+		<input type="radio" id = "mc" name = "question6" value="France">France<br>
+		<input type="radio" id = "mc" name = "question6" value="Hell">Hell<br>
+		<input type="radio" id = "mc" name = "question6" value="Brazil">Brazil <br>
+
+
+		<p>What is your prefered art movement?</p>
+		<input type="radio" id = "mc" name = "question7" value="Impressionism">Impressionism<br>
+		<input type="radio" id = "mc" name = "question7" value="Neo-Expressionism">Neo-Expressionism<br>
+		<input type="radio" id = "mc" name = "question7" value="Romanticism">Romanticism<br>
+		<input type="radio" id = "mc" name = "question7" value="Surrealism">Surrealism<br>
+
+		<p>Are you a morning person or night owl?</p>
+		<input type="radio" id = "mc" name = "question8" value="Morning Person">Morning Person<br>
+		<input type="radio" id = "mc" name = "question8" value="Night Owl">Night Owl<br>
+		<input type="radio" id = "mc" name = "question8" value="Both">Both<br>
+		<input type="radio" id = "mc" name = "question8" value="Neither">Neither<br>
+
+		<p>Where does the comma go?</p>
+		<input type="radio" id = "mc" name = "question9" value="Before the quotation mark">Before the quotation mark<br>
+		<input type="radio" id = "mc" name = "question9" value="After the quotation mark">After the quotation mark<br>
+		<input type="radio" id = "mc" name = "question9" value="Grammar is fascist">Grammar is fascist<br>
+		<input type="radio" id = "mc" name = "question9" value="Grammar is a spook">Grammar is a spook<br>
+
+		<p>What race would you prefer to date?</p>
+		<input type="radio" id = "mc" name = "question10" value="Black">Black<br>
+		<input type="radio" id = "mc" name = "question10" value="Indian">Indian<br>
+		<input type="radio" id = "mc" name = "question10" value="White">White<br>
+		<input type="radio" id = "mc" name = "question10" value="Asian">Asian<br>
+<!--
+		<p>What race would you prefer to date??</p>
+		<input type="radio" id = "mc" name = "question10" value="Black">Black<br>
+		<input type="radio" id = "mc" name = "question10" value="Indian">Indian<br>
+		<input type="radio" id = "mc" name = "question10" value="White">White<br>
+		<input type="radio" id = "mc" name = "question10" value="Asian">Asian<br>
+ -->
+
+
+		<input id = "button" type = "button" value= "Submit" onclick="check();">
+
+
+
+	</form>
+	<div id="after_submit">
+		<p id="number_correct"></p>
+		<img id = "picture">
+	</div>
+</body>
+
+</html>
